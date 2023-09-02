@@ -9,7 +9,7 @@ const Dancer = () => {
         actions['mixamo.com'].play()
     },[])
   return (
-    <mesh scale={2} position={[2,-3.2,4]} rotation={[0,Math.PI,0]}>
+    <mesh scale={2.5} position={[2,-4.5,5]} rotation={[0,Math.PI,0]}>
       <primitive object={dancerMemo.scene} />
     </mesh>
   )

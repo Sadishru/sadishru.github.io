@@ -1,6 +1,6 @@
 import React,{Suspense} from 'react';
 import {Canvas} from '@react-three/fiber'
-import {OrbitControls} from '@react-three/drei';
+import {OrbitControls,Loader} from '@react-three/drei';
 
 import MainScene from './Components/Scenes/MainScene';
 import Intro from './Components/Scenes/Intro';
@@ -33,6 +33,7 @@ const App = () => {
         <OrbitControls enableZoom={false} /> 
         
       </Canvas>
+        <Loader />
     </>
   )
 }
