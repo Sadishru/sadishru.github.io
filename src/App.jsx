@@ -30,7 +30,8 @@ const App = () => {
           <Dancer />
           <DisTab />
         </Suspense>
-        <OrbitControls enableZoom={false} reverseOrbit={true} rotateSpeed={0.2} /> 
+
+        <OrbitControls enableZoom={false} reverseOrbit={true} rotateSpeed={0.3} /> 
         
       </Canvas>
         <Loader />
