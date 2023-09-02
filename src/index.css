@@ -54,7 +54,7 @@ body {
 }
 
 .container_header {
-    /* transform: translate3d(0,-20px,0); */
+    transform: translate3d(0,10px,0);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -85,7 +85,7 @@ body {
     margin: 0 1px;
 
     width: 200px;
-    height: 50vh;
+    height: 400px;
     overflow-x:hidden;
     overflow-y: scroll;
     cursor: pointer;
